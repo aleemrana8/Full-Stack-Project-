@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aleem Tech AI Portfolio - Showcasing our best projects in AI, web development, and digital solutions.">
+  <meta name="author" content="Rana Muhammad Aleem Akhtar">
+  <title>Portfolio - Aleem Tech AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div class="loader" aria-hidden="true"><div class="loader-spinner"></div></div>
+  <div class="particles" aria-hidden="true"></div>
+
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <a href="index.html" class="nav-logo" aria-label="Aleem Tech AI Home"><span>Aleem Tech AI</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header" aria-label="Page header">
+      <div class="container">
+        <h1>Our Portfolio</h1>
+        <p>Explore our latest projects and see how we bring ideas to life with technology.</p>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span>/</span><span>Portfolio</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Portfolio projects">
+      <div class="container">
+        <!-- Filter -->
+        <div class="portfolio-filter reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ai">AI/ML</button>
+          <button class="filter-btn" data-filter="web">Web Dev</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="saas">SaaS</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="portfolio-grid" data-stagger>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="ai">
+            <div class="portfolio-thumbnail">🤖</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">AI</span>
+                <span class="portfolio-tag">Python</span>
+                <span class="portfolio-tag">TensorFlow</span>
+              </div>
+              <h3>AI Analytics Dashboard</h3>
+              <p>Real-time analytics platform with predictive insights powered by custom ML models.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="mobile">
+            <div class="portfolio-thumbnail">📱</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Mobile</span>
+                <span class="portfolio-tag">React Native</span>
+              </div>
+              <h3>FinTech Mobile App</h3>
+              <p>Secure financial management app with biometric auth and real-time transactions.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="web">
+            <div class="portfolio-thumbnail">🛒</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">E-Commerce</span>
+                <span class="portfolio-tag">Full Stack</span>
+              </div>
+              <h3>E-Commerce Platform</h3>
+              <p>Scalable online marketplace with AI-powered product recommendations.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="saas">
+            <div class="portfolio-thumbnail">☁️</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">SaaS</span>
+                <span class="portfolio-tag">Cloud</span>
+              </div>
+              <h3>Project Management SaaS</h3>
+              <p>Multi-tenant project management tool with real-time collaboration features.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="design">
+            <div class="portfolio-thumbnail">🎨</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">UI/UX</span>
+                <span class="portfolio-tag">Figma</span>
+              </div>
+              <h3>Healthcare App Redesign</h3>
+              <p>Complete UI/UX overhaul improving user engagement by 300%.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="ai">
+            <div class="portfolio-thumbnail">💬</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">NLP</span>
+                <span class="portfolio-tag">Chatbot</span>
+              </div>
+              <h3>AI Customer Support Bot</h3>
+              <p>Intelligent chatbot handling 80% of customer queries automatically.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="web">
+            <div class="portfolio-thumbnail">🌐</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Web</span>
+                <span class="portfolio-tag">Node.js</span>
+              </div>
+              <h3>Real Estate Platform</h3>
+              <p>Property listing platform with virtual tours and AI price estimation.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="saas">
+            <div class="portfolio-thumbnail">📊</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">SaaS</span>
+                <span class="portfolio-tag">Analytics</span>
+              </div>
+              <h3>Marketing Analytics Tool</h3>
+              <p>All-in-one marketing dashboard with campaign tracking and ROI analysis.</p>
+            </div>
+          </article>
+          <article class="portfolio-card reveal hover-lift tilt-card" data-category="mobile">
+            <div class="portfolio-thumbnail">🏃</div>
+            <div class="portfolio-info">
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Mobile</span>
+                <span class="portfolio-tag">Health</span>
+              </div>
+              <h3>Fitness Tracking App</h3>
+              <p>AI-powered fitness app with personalized workout plans and health monitoring.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-label="Call to action">
+      <div class="container">
+        <div class="cta-box reveal">
+          <h2>Have a Project in Mind?</h2>
+          <p>Let's collaborate and bring your vision to life with cutting-edge technology.</p>
+          <a href="contact.html" class="btn btn-primary btn-glow">Start a Project →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"><span>Aleem Tech AI</span></a>
+          <p>Transforming businesses through innovative AI solutions and cutting-edge web development.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="GitHub">⌨</a>
+            <a href="#" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="services.html">AI Solutions</a>
+          <a href="services.html">Web Development</a>
+          <a href="services.html">UI/UX Design</a>
+          <a href="services.html">Cloud Solutions</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <a href="mailto:raleem811811@gmail.com">raleem811811@gmail.com</a>
+          <a href="tel:+923151664843">+92 315 1664843</a>
+          <a>Hostel City Park Road Islamabad</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aleem Tech AI. All rights reserved. | Designed by Rana Muhammad Aleem Akhtar</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top">↑</button>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/interactions.js"></script>
+</body>
+</html>
